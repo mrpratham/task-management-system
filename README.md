@@ -9,12 +9,12 @@ Database (MongoDB): MongoDB, a NoSQL database, is well-suited for storing flexib
 
 Key Features:
 
-# User Authentication and Authorization: Users can sign up, log in, and manage their tasks. Authentication ensures that only authorized users can access and modify tasks.
+1. User Authentication and Authorization: Users can sign up, log in, and manage their tasks. Authentication ensures that only authorized users can access and modify tasks.
 
-# Task Creation and Management: Users can create new tasks, assign them to individuals or teams, set due dates, mark priority levels, add descriptions, and attach files or links.
+2. Task Creation and Management: Users can create new tasks, assign them to individuals or teams, set due dates, mark priority levels, add descriptions, and attach files or links.
 
-# Task Filtering and Sorting: Users can filter tasks based on criteria such as status, due date, priority, or assigned user. Sorting options allow users to organize tasks according to their preferences.
+3. Task Filtering and Sorting: Users can filter tasks based on criteria such as status, due date, priority, or assigned user. Sorting options allow users to organize tasks according to their preferences.
 
-# Real-Time Updates: Utilizing technologies like WebSockets or server-sent events, the system can provide real-time updates to users, such as when a task is assigned to them or when a task's status changes. 
+4. Real-Time Updates: Utilizing technologies like WebSockets or server-sent events, the system can provide real-time updates to users, such as when a task is assigned to them or when a task's status changes. 
 
 
