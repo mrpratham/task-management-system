@@ -1,0 +1,86 @@
+.taskContainer {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.taskContainer:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.taskInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.priority-dropdown {
+  display: inline-block;
+  padding: 10px 40px 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.dropdownIcon i {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Adjust right positioning */
+  transform: translateY(-50%);
+}
+
+.priority-dropdown:hover {
+  background-color: #45a049;
+}
+
+.priority-dropdown select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.taskButton {
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.taskButton:hover {
+  background-color: #45a049;
+}

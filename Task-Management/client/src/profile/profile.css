@@ -1,0 +1,30 @@
+/* Profile.css */
+
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    background-color: #fff; /* Adjust background color as needed */
+  }
+  
+  .profile-container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-details {
+    margin-top: 20px;
+  }
+  
+  .user-details div {
+    margin-bottom: 10px;
+  }
+  
+  .user-details strong {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  

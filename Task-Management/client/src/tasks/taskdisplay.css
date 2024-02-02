@@ -1,0 +1,37 @@
+.taskDisplay {
+    margin-top: 20px;
+  }
+  
+  .taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .taskText {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .taskPriority {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .deleteButton {
+    cursor: pointer;
+    color: #f44336;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .deleteButton:hover {
+    color: #d32f2f;
+  }
+  
